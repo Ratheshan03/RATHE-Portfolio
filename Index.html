@@ -57,11 +57,12 @@
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
         <div class="home__Quote">
-          <p class="Quote">"Always Work Hard and Trust the Process"</p>
+          <p class="Quote">Always Work Hard and Trust the Process</p>
         </div>
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
+              <p class="vertical-text">Join me on social media</p>
               <a
                 href="https://www.linkedin.com/in/ratheshan-sathiyamoorthy-3aa2891b9/"
                 target="_blank"
@@ -103,7 +104,7 @@
               <img
                 src="./packages/images/ratheshan.JPG"
                 alt="My-photo"
-                class="Profile-pic"
+                class="home__Profile-pic"
               />
             </div>
 
@@ -133,7 +134,11 @@
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-          <img src="./packages/images/about.png" alt="" class="about__img" />
+          <img
+            src="./packages/images/about.png"
+            alt="Coding"
+            class="about__img"
+          />
           <div class="about__data">
             <p class="about__description">
               I am a second year undergraduate student, who is intended to
@@ -337,8 +342,8 @@
 
           <div class="skills__container container grid">
             <div>
-              <!--==================== SKILLS 2 ====================-->
-              <div class="skills__content skills__close">
+              <!--==================== SKILLS 1 ====================-->
+              <div class="skills__content">
                 <div class="skills__header">
                   <i class="uil uil-mobile-android skills__icon"></i>
                   <div>
@@ -390,7 +395,7 @@
             </div>
 
             <div>
-              <!--==================== SKILLS 3 ====================-->
+              <!--==================== SKILLS 2 ====================-->
               <div class="skills__content skills__close">
                 <div class="skills__header">
                   <i class="uil uil-brackets-curly skills__icon"></i>
@@ -440,7 +445,7 @@
                   </div>
                 </div>
               </div>
-              <!--==================== SKILL-1 ====================-->
+              <!--==================== SKILL-3 ====================-->
               <div class="skills__content skills__close">
                 <div class="skills__header">
                   <i class="uil uil-analytics skills__icon"></i>
@@ -505,7 +510,7 @@
           <div class="projects__content">
             <img
               src="./packages/images/portfolio1.PNG"
-              alt="youtube-site"
+              alt="youtube site"
               class="pro-img"
             />
             <h3 class="projects__title">YouTube Clone<br /></h3>
@@ -525,7 +530,7 @@
           <div class="projects__content">
             <img
               src="./packages/images/portfolio2.png"
-              alt="tesla-site"
+              alt="tesla site"
               class="pro-img"
             />
             <h3 class="projects__title">Tesla Clone<br /></h3>
@@ -545,7 +550,7 @@
           <div class="projects__content">
             <img
               src="./packages/images/portfolio3.PNG"
-              alt="amazon-site"
+              alt="amazon site"
               class="pro-img"
             />
             <h3 class="projects__title">Amazon Clone<br /></h3>
@@ -652,11 +657,16 @@
             </div>
           </div>
 
-          <form action="POST" class="contact__form grid">
+          <form
+            method="post"
+            action="mailto:ratheshan.20200170@iit.ac.lk"
+            class="contact__form grid"
+          >
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="name" class="contact__label">Name</label>
                 <input
+                  placeholder="Enter your name"
                   type="text"
                   name="name"
                   id="name"
@@ -667,6 +677,7 @@
               <div class="contact__content">
                 <label for="email" class="contact__label">E-mail</label>
                 <input
+                  placeholder="Enter your email"
                   type="email"
                   name="email"
                   id="email"
@@ -678,6 +689,7 @@
             <div class="contact__content">
               <label for="subject" class="contact__label">Subject</label>
               <input
+                placeholder="Enter your subject"
                 type="text"
                 name="subject"
                 id="subject"
@@ -693,11 +705,12 @@
                 cols="3"
                 rows="7"
                 class="contact__input"
+                placeholder="Enter the Description"
               ></textarea>
             </div>
 
             <div>
-              <a href="#" class="button button--flex">
+              <a href="#" class="button button--flex contact__button">
                 Send message
                 <i class="uil uil-message button__icon"></i>
               </a>
@@ -724,7 +737,7 @@
               <a href="#projects" class="footer__link">Projects</a>
             </li>
             <li>
-              <a href="#contact" class="footer__link">Contact</a>
+              <a href="#contact class=" class="footer__link">Contact</a>
             </li>
           </ul>
 
@@ -744,7 +757,7 @@
               <i class="uil uil-instagram"></i>
             </a>
             <a
-              href="https://twitter.com/prashanna01"
+              href="https://twitter.com/Ratheshan03"
               target="_blank"
               class="footer__social"
             >
